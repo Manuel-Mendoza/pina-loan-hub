@@ -1,0 +1,88 @@
+
+{
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "login": "Iniciar Sesión",
+    "dashboard": "Panel de Control"
+  },
+  "home": {
+    "hero": {
+      "title": "Cooperativa Doña Pina",
+      "subtitle": "Tu socio financiero de confianza",
+      "description": "Ofrecemos préstamos accesibles y servicios financieros diseñados especialmente para nuestros socios y la comunidad.",
+      "cta": "Solicitar Préstamo",
+      "learn_more": "Conoce Más"
+    },
+    "features": {
+      "title": "Nuestros Servicios",
+      "loans": {
+        "title": "Préstamos Personales",
+        "description": "Préstamos con tasas preferenciales para socios y condiciones flexibles de pago."
+      },
+      "savings": {
+        "title": "Cuentas de Ahorro",
+        "description": "Productos de ahorro que te ayudan a alcanzar tus metas financieras."
+      },
+      "benefits": {
+        "title": "Beneficios para Socios",
+        "description": "Accede a tasas especiales y servicios exclusivos siendo parte de nuestra cooperativa."
+      }
+    },
+    "stats": {
+      "members": "Socios Activos",
+      "loans": "Préstamos Otorgados",
+      "experience": "Años de Experiencia",
+      "satisfaction": "Satisfacción del Cliente"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Iniciar Sesión",
+      "subtitle": "Accede a tu cuenta de la cooperativa",
+      "email": "Correo Electrónico",
+      "password": "Contraseña",
+      "remember": "Recordar sesión",
+      "forgot": "¿Olvidaste tu contraseña?",
+      "submit": "Ingresar",
+      "no_account": "¿No tienes cuenta?",
+      "register": "Regístrate aquí"
+    }
+  },
+  "dashboard": {
+    "welcome": "Bienvenido/a",
+    "member_status": "Estado de Socio",
+    "member": "Socio",
+    "non_member": "No Socio",
+    "loan_summary": "Resumen de Préstamos",
+    "active_loans": "Préstamos Activos",
+    "payment_history": "Historial de Pagos",
+    "apply_loan": "Solicitar Préstamo",
+    "no_loans": "No tienes préstamos activos",
+    "quick_actions": "Acciones Rápidas"
+  },
+  "loans": {
+    "title": "Solicitud de Préstamo",
+    "amount": "Monto a Solicitar",
+    "purpose": "Propósito del Préstamo",
+    "term": "Plazo de Pago",
+    "personal": "Personal",
+    "business": "Negocio",
+    "education": "Educación",
+    "home": "Vivienda",
+    "months": "meses",
+    "submit": "Enviar Solicitud",
+    "processing": "Procesando solicitud..."
+  },
+  "common": {
+    "loading": "Cargando...",
+    "submit": "Enviar",
+    "cancel": "Cancelar",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "save": "Guardar",
+    "close": "Cerrar"
+  }
+}

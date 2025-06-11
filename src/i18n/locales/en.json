@@ -1,0 +1,88 @@
+
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "login": "Sign In",
+    "dashboard": "Dashboard"
+  },
+  "home": {
+    "hero": {
+      "title": "Doña Pina Cooperative",
+      "subtitle": "Your trusted financial partner",
+      "description": "We offer accessible loans and financial services designed especially for our members and the community.",
+      "cta": "Apply for Loan",
+      "learn_more": "Learn More"
+    },
+    "features": {
+      "title": "Our Services",
+      "loans": {
+        "title": "Personal Loans",
+        "description": "Loans with preferential rates for members and flexible payment terms."
+      },
+      "savings": {
+        "title": "Savings Accounts",
+        "description": "Savings products that help you reach your financial goals."
+      },
+      "benefits": {
+        "title": "Member Benefits",
+        "description": "Access special rates and exclusive services by being part of our cooperative."
+      }
+    },
+    "stats": {
+      "members": "Active Members",
+      "loans": "Loans Granted",
+      "experience": "Years of Experience",
+      "satisfaction": "Customer Satisfaction"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Sign In",
+      "subtitle": "Access your cooperative account",
+      "email": "Email Address",
+      "password": "Password",
+      "remember": "Remember me",
+      "forgot": "Forgot your password?",
+      "submit": "Sign In",
+      "no_account": "Don't have an account?",
+      "register": "Register here"
+    }
+  },
+  "dashboard": {
+    "welcome": "Welcome",
+    "member_status": "Member Status",
+    "member": "Member",
+    "non_member": "Non-Member",
+    "loan_summary": "Loan Summary",
+    "active_loans": "Active Loans",
+    "payment_history": "Payment History",
+    "apply_loan": "Apply for Loan",
+    "no_loans": "You have no active loans",
+    "quick_actions": "Quick Actions"
+  },
+  "loans": {
+    "title": "Loan Application",
+    "amount": "Loan Amount",
+    "purpose": "Loan Purpose",
+    "term": "Payment Term",
+    "personal": "Personal",
+    "business": "Business",
+    "education": "Education",
+    "home": "Home",
+    "months": "months",
+    "submit": "Submit Application",
+    "processing": "Processing application..."
+  },
+  "common": {
+    "loading": "Loading...",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "close": "Close"
+  }
+}
