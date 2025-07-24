@@ -23,7 +23,7 @@ const Login = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     try {
       await login(formData.email, formData.password);
       toast.success('¡Bienvenido a la Cooperativa Doña Pina!');
@@ -56,7 +56,7 @@ const Login = () => {
               {t('auth.login.subtitle')}
             </CardDescription>
           </CardHeader>
-          
+
           <CardContent>
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="space-y-2">
@@ -103,7 +103,7 @@ const Login = () => {
                     id="remember"
                     name="remember"
                     checked={formData.remember}
-                    onCheckedChange={(checked) => 
+                    onCheckedChange={(checked) =>
                       setFormData(prev => ({ ...prev, remember: !!checked }))
                     }
                   />
@@ -116,8 +116,8 @@ const Login = () => {
                 </Button>
               </div>
 
-              <Button 
-                type="submit" 
+              <Button
+                type="submit"
                 disabled={isLoading}
                 className="w-full bg-cooperative-blue hover:bg-cooperative-blue/90 text-white"
               >
@@ -139,16 +139,6 @@ const Login = () => {
                   {t('auth.login.register')}
                 </Button>
               </p>
-            </div>
-
-            <div className="mt-6 p-4 bg-gray-50 rounded-lg">
-              <p className="text-xs text-gray-500 text-center mb-2">Cuentas de prueba:</p>
-              <div className="text-xs text-gray-600 space-y-1">
-                <div><strong>Admin:</strong> admin@donapina.coop</div>
-                <div><strong>Socio:</strong> socio@example.com</div>
-                <div><strong>No Socio:</strong> noSocio@example.com</div>
-                <div><strong>Contraseña:</strong> cualquier texto</div>
-              </div>
             </div>
           </CardContent>
         </Card>
